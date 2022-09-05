@@ -5,7 +5,6 @@ body{
     align-items: center;
     justify-content: space-between;
     gap: 100px;
-    
 }
 
 .header{
@@ -67,6 +66,7 @@ button{
     align-items: center;
     background-color: white;
     width: 103%;
+    padding: 50px;
 }
 
 p{
@@ -104,10 +104,7 @@ img{
     border-radius: 25px;
 }
 
-.quote-block{
-    width: 103%;
-    background-color: lightgray;
-}
+
 
 .quote-box{
     display: flex;
@@ -115,10 +112,26 @@ img{
     flex-direction: column;
     align-items: center;
     padding: 36px;
+    border: 10px dotted silver;
 }
 
 .ref{
     justify-self: flex-end;
 }
+
+.block-action{
+    background-color: white;
+    width: 103%;
+}
+
+.box-action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+
 
 
