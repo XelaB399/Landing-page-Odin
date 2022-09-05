@@ -23,7 +23,8 @@ body{
 }
 
 .link{
-    border: 5px solid white;
+    background-color: white;
+    border: 5px solid grey;
     border-radius: 25px;
     padding: 5px;
 }
