@@ -104,4 +104,21 @@ img{
     border-radius: 25px;
 }
 
+.quote-block{
+    width: 103%;
+    background-color: lightgray;
+}
+
+.quote-box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 36px;
+}
+
+.ref{
+    justify-self: flex-end;
+}
+
 
