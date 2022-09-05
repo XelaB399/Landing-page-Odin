@@ -6,8 +6,9 @@ body{
     display: flex;
     align-items: center;
     margin: 0px;
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid lemonchiffon;
     width: 103%;
+    margin-bottom: 10px;
 
 }
 
@@ -19,7 +20,7 @@ body{
 }
 
 .link{
-    border: 5px solid lightblue;
+    border: 5px solid lemonchiffon;
     border-radius: 25px;
     padding: 5px;
 }
@@ -30,4 +31,32 @@ body{
     margin-left: 3%;
     padding: 5px;
 }
+
+.opener{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.con-top{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex-wrap: wrap;
+    max-width: 75%;
+}
+
+.top-title{
+    font-weight: bolder;
+    font-size: large;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+}
+
+
 
