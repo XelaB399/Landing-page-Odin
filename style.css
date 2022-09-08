@@ -1,7 +1,9 @@
-body{
+html, body{
     background-color: antiquewhite;
     padding: 0px;
     margin: 0px;
+    overflow-x: hidden;
+    font-family: "Gill Sans", sans-serif;
 }
 
 .header{
@@ -27,17 +29,18 @@ body{
 }
 
 img.logo{
-    width: 60px;
-    height: 70px;
+    width: 70px;
+    height: 80px;
     
     padding: 5px;
+    margin: 5px;
 }
 
 .opener{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     padding-top: 30px;
 }
 
@@ -49,21 +52,28 @@ img.logo{
 .con-top{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 30px;
     flex-wrap: wrap;
-    max-width: 75%;
+    max-width: 500px;
     justify-content: space-between;
 }
 
 .top-title{
     font-weight: bolder;
-    font-size: large;
+    font-size: 36px;
+    text-align: center;
 }
 
 button{
     background-color: blue;
     color: white;
     border-radius: 25px;
+
+    text-align: center;
+    max-width: min-content;
+    padding: 10px;
+    white-space: nowrap;
+    align-self: center;
 }
 
 .info-ran{
