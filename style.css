@@ -39,6 +39,11 @@ img.logo{
     padding-top: 30px;
 }
 
+.main-image{
+    width: 500px;
+    height: auto;
+}
+
 .con-top{
     display: flex;
     flex-direction: column;
