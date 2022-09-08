@@ -132,8 +132,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px;
-    margin: 80px;
+    padding: 160px;
 }
 
 
@@ -172,8 +171,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 50px;
-    padding-top: 60px;
+    padding: 30px;
     border-radius: 15px;
     background-color: blue;
 
@@ -189,8 +187,6 @@ img{
     border: 2px solid white;
     font-weight: 300;
     padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .block-action{
@@ -199,10 +195,11 @@ img{
     align-items: center;
     justify-content: center;
     height: 400px;
-    
-
 }
 
+.para{
+    width: 70%;
+}
 
 .footer{
    background-color: grey;
