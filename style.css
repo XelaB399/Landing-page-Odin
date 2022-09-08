@@ -3,6 +3,7 @@ html, body{
     padding: 0px;
     margin: 0px;
     overflow-x: hidden;
+    overflow-y: scroll;
     font-family: "Gill Sans", sans-serif;
 }
 
@@ -203,17 +204,16 @@ img{
 }
 
 
-
 .footer{
-    display: flex;
    background-color: grey;
    color: white;
-   margin: 0;
-   padding: 0px;
+   height: 40px;
 }
 
 .ip{
-    padding: 20px;
-    margin-left: auto;
+    padding: 10px;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
 }
 
