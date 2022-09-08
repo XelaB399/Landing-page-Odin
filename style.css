@@ -31,6 +31,7 @@ html, body{
 img.logo{
     width: 70px;
     height: 80px;
+    border: none;
     
     padding: 5px;
     margin: 5px;
@@ -93,9 +94,11 @@ p{
 }
 
 .title{
-    font-size: 24px;
-    font-weight: 300;
+    font-size: 28px;
+    font-weight: 600;
     padding-bottom: 50px;
+    font-family: sans-serif;
+    text-decoration-line: underline;
 }
 
 .boxes-info{
@@ -111,7 +114,7 @@ p{
 .b{
     display: flex;
     flex-direction: column;
-    max-width: 200px;
+    max-width: 250px;
     flex-wrap: wrap;
     align-items: center;
 
@@ -140,17 +143,28 @@ img{
     align-items: center;
     justify-content: center;
     border: 10px dotted white;
-    width: 600px;
+    width: 700px;
     height: auto;
-    padding: 20px;
-   
-  
-   
+    padding: 10px;
 }
 
+.quote{
+    max-width: 500px;
+    line-height: 80px;
+    font-size: 24px;
+    font-family: cursive;
+    text-align: center;
+    padding-bottom: 0;
+    padding-top: 10px;
+
+}
 
 .ref{
     margin-left: auto;
+    line-height: 0;
+    font-family: cursive;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 .box-action{
