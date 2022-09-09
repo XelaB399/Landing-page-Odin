@@ -181,12 +181,15 @@ img{
 
     width: 700px;
     height: 50px;
+
+
 }
 
 .bottom-button{
     border: 2px solid white;
     font-weight: 300;
     padding: 10px;
+    margin-bottom: 30px;
 }
 
 .block-action{
@@ -200,6 +203,7 @@ img{
 .para{
     width: 70%;
     text-align: center;
+   
 }
 
 .act-title{
@@ -207,9 +211,10 @@ img{
 }
 
 .act-body{
-    font-weight: 600;
-    
+    font-size: 15px;
+    font-weight: lighter;
 }
+
 
 .footer{
    background-color: grey;
